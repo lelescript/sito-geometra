@@ -3,98 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geometra - Studio Professionale</title>
+    <title>Geometra Professionista | Studio Tecnico</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="container">
-                <div class="logo">
-                    <h1>📐 Geometra Studio</h1>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">GEOMETRA</div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#servizi" class="nav-link">Servizi</a></li>
+                <li><a href="#portfolio" class="nav-link">Progetti</a></li>
+                <li><a href="#contatti" class="nav-link">Contatti</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Precisione Tecnica,<br><span class="gradient-text">Soluzioni Innovative</span></h1>
+            <p class="hero-subtitle">Studio professionale di geometria con esperienza decennale nel settore topografico e progettuale</p>
+            <a href="#contatti" class="btn btn-primary">Scopri di Più</a>
+        </div>
+        <div class="hero-shape"></div>
+    </section>
+
+    <!-- SERVIZI SECTION -->
+    <section id="servizi" class="servizi">
+        <div class="section-header">
+            <h2>I Nostri Servizi</h2>
+            <p>Soluzioni complete per le vostre esigenze geometriche</p>
+        </div>
+        
+        <div class="servizi-grid">
+            <div class="servizio-card">
+                <div class="card-icon">📍</div>
+                <h3>Rilievi Topografici</h3>
+                <p>Rilievi precisi di terreni e fabbricati con strumentazione GPS e laser scanner di ultima generazione.</p>
+            </div>
+
+            <div class="servizio-card">
+                <div class="card-icon">🏗️</div>
+                <h3>Progettazione Architettonica</h3>
+                <p>Progetti costruttivi e architettonici conformi alle normative vigenti e alle vostre specifiche esigenze.</p>
+            </div>
+
+            <div class="servizio-card">
+                <div class="card-icon">📋</div>
+                <h3>Pratiche Catastali</h3>
+                <p>Gestione completa delle pratiche catastali e question di confini con massima competenza legale.</p>
+            </div>
+
+            <div class="servizio-card">
+                <div class="card-icon">🏘️</div>
+                <h3>Consulenza Tecnica</h3>
+                <p>Consulenza specializzata su questioni tecniche, perizie e valutazioni immobiliari professionali.</p>
+            </div>
+
+            <div class="servizio-card">
+                <div class="card-icon">📐</div>
+                <h3>BIM e Modellazione 3D</h3>
+                <p>Modellazione tridimensionale avanzata e gestione progetti con metodologia Building Information Modeling.</p>
+            </div>
+
+            <div class="servizio-card">
+                <div class="card-icon">🔍</div>
+                <h3>Controllo e Conformità</h3>
+                <p>Verifiche tecniche di conformità agli standard costruttivi e supervisione cantieri specializzata.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="portfolio">
+        <div class="section-header">
+            <h2>Progetti Recenti</h2>
+            <p>Una selezione dei nostri progetti più significativi</p>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=500&h=300&fit=crop" alt="Progetto Residenziale">
+                    <div class="portfolio-overlay">
+                        <h4>Complesso Residenziale</h4>
+                    </div>
                 </div>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#servizi">Servizi</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contatti">Contatti</a></li>
-                </ul>
             </div>
-        </nav>
-    </header>
 
-    <main>
-        <!-- HOME -->
-        <section id="home" class="hero">
-            <div class="container">
-                <h2>Benvenuto al nostro Studio</h2>
-                <p>Soluzioni professionali in geometria e rilievi topografici</p>
-                <a href="#contatti" class="btn">Contattaci</a>
-            </div>
-        </section>
-
-        <!-- SERVIZI -->
-        <section id="servizi" class="servizi">
-            <div class="container">
-                <h2>I Nostri Servizi</h2>
-                <div class="servizi-grid">
-                    <div class="servizio-card">
-                        <h3>📍 Rilievi Topografici</h3>
-                        <p>Rilievi precisi di terreni e fabbricati con tecnologie moderne.</p>
-                    </div>
-                    <div class="servizio-card">
-                        <h3>🏗️ Progettazione</h3>
-                        <p>Progetti di costruzione e ristrutturazione secondo le normative vigenti.</p>
-                    </div>
-                    <div class="servizio-card">
-                        <h3>📋 Consulenze</h3>
-                        <p>Consulenza tecnica per pratiche catastali e questioni di confini.</p>
-                    </div>
-                    <div class="servizio-card">
-                        <h3>🏘️ Planimetrie</h3>
-                        <p>Realizzazione di planimetrie tecniche e disegni professionali.</p>
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=300&fit=crop" alt="Rilievo Topografico">
+                    <div class="portfolio-overlay">
+                        <h4>Rilievo Topografico Terreno</h4>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <!-- PORTFOLIO -->
-        <section id="portfolio" class="portfolio">
-            <div class="container">
-                <h2>I Nostri Progetti</h2>
-                <div class="portfolio-grid">
-                    <div class="portfolio-item">
-                        <img src="https://via.placeholder.com/300x200" alt="Progetto 1">
-                        <h4>Rilievo Residenziale</h4>
-                    </div>
-                    <div class="portfolio-item">
-                        <img src="https://via.placeholder.com/300x200" alt="Progetto 2">
-                        <h4>Progetto Commerciale</h4>
-                    </div>
-                    <div class="portfolio-item">
-                        <img src="https://via.placeholder.com/300x200" alt="Progetto 3">
-                        <h4>Rilievo Terreno</h4>
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=300&fit=crop" alt="Progetto Commerciale">
+                    <div class="portfolio-overlay">
+                        <h4>Centro Commerciale</h4>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <!-- CONTATTI -->
-        <section id="contatti" class="contatti">
-            <div class="container">
-                <h2>Contattaci</h2>
-                <div class="contatti-info">
-                    <p><strong>Telefono:</strong> +39 123 456 7890</p>
-                    <p><strong>Email:</strong> info@geometrastudio.it</p>
-                    <p><strong>Indirizzo:</strong> Via Roma 123, 00100 Roma</p>
-                    <p><strong>Orari:</strong> Lun-Ven 9:00-18:00</p>
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=500&h=300&fit=crop" alt="Restauro Edificio">
+                    <div class="portfolio-overlay">
+                        <h4>Restauro Storico</h4>
+                    </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2026 Geometra Studio. Tutti i diritti riservati.</p>
+    <!-- CONTATTI SECTION -->
+    <section id="contatti" class="contatti">
+        <div class="section-header white-text">
+            <h2>Contattaci</h2>
+            <p>Siamo qui per aiutarti con i tuoi progetti</p>
+        </div>
+
+        <div class="contatti-container">
+            <div class="contatti-info">
+                <div class="info-item">
+                    <h4>📞 Telefono</h4>
+                    <p>+39 123 456 7890</p>
+                </div>
+                <div class="info-item">
+                    <h4>📧 Email</h4>
+                    <p>info@studiogeometra.it</p>
+                </div>
+                <div class="info-item">
+                    <h4>📍 Indirizzo</h4>
+                    <p>Via Roma 123, 00100 Roma</p>
+                </div>
+                <div class="info-item">
+                    <h4>🕐 Orari</h4>
+                    <p>Lun-Ven: 9:00 - 18:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 Studio Geometra Professionista. Tutti i diritti riservati.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
