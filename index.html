@@ -3,177 +3,225 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studio Geometra | Rilievi e Progettazioni Topografiche</title>
+    <title>GEOMETRA PRO | Studio Tecnico Avanzato</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- HEADER & NAVBAR -->
-    <header class="header">
-        <nav class="navbar">
-            <div class="container">
-                <div class="nav-brand">
-                    <h2>GEOMETRA</h2>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#chi-siamo">Chi Siamo</a></li>
-                    <li><a href="#servizi">Servizi</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contatti" class="nav-contact">Contatti</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">GEOMETRA<span>PRO</span></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT</a></li>
+                <li><a href="#services" class="nav-link">SERVICES</a></li>
+                <li><a href="#portfolio" class="nav-link">PORTFOLIO</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+            <a href="#contact" class="nav-btn">GET STARTED</a>
+        </div>
+    </nav>
 
     <!-- HERO SECTION -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Studio Geometra Professionale</h1>
-            <p>Soluzioni di rilievo topografico e progettazione con tecnologie all'avanguardia</p>
-            <a href="#contatti" class="btn-primary">Richiedi Consulenza</a>
-        </div>
-        <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop" alt="Professionista">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Studio Geometrico<br>
+                    <span class="gradient-text">Di Nuova Generazione</span>
+                </h1>
+                <p class="hero-desc">Rilievi topografici precisissimi, progettazioni innovative e consulenze tecniche con tecnologie all'avanguardia. Trasformiamo le tue idee in progetti eccezionali.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Inizia Ora</a>
+                    <a href="#services" class="btn btn-secondary">Scopri Più</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=700&fit=crop&crop=faces" alt="Professionista Geometra">
+            </div>
         </div>
     </section>
 
-    <!-- CHI SIAMO -->
-    <section id="chi-siamo" class="chi-siamo">
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
         <div class="container">
-            <h2>Chi Siamo</h2>
-            <div class="chi-siamo-content">
-                <div class="chi-siamo-text">
-                    <p>Studio geometrico con 24 anni di esperienza nel settore topografico e progettuale. Siamo specializzati in rilievi precisi, progettazioni innovative e consulenze tecniche di alto livello.</p>
-                    <p>Il nostro team è composto da geometri certificati, ingegneri e tecnici specializzati che utilizzano le tecnologie più avanzate: GPS, laser scanner, software BIM e sistemi di modellazione 3D.</p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <strong>500+</strong>
-                            <span>Progetti</span>
+            <div class="section-header">
+                <h2>Chi Siamo</h2>
+                <p>Eccellenza tecnica dal 2000</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Studio geometrico fondato nel 2000, specializzato in rilievi topografici di precisione, progettazioni architettoniche e consulenze tecniche. Abbiamo sviluppato un'expertise decennale che ci permette di affrontare anche i progetti più complessi con competenza e innovazione.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <h4>500+</h4>
+                            <span>Progetti Completati</span>
                         </div>
-                        <div class="stat">
-                            <strong>24+</strong>
-                            <span>Anni</span>
+                        <div class="feature">
+                            <h4>24+</h4>
+                            <span>Anni di Esperienza</span>
                         </div>
-                        <div class="stat">
-                            <strong>98%</strong>
-                            <span>Soddisfatti</span>
+                        <div class="feature">
+                            <h4>98%</h4>
+                            <span>Clienti Soddisfatti</span>
                         </div>
                     </div>
                 </div>
-                <div class="chi-siamo-image">
-                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=400&fit=crop" alt="Team">
+                
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=600&fit=crop" alt="Team">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SERVIZI -->
-    <section id="servizi" class="servizi">
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services">
         <div class="container">
-            <h2>I Nostri Servizi</h2>
-            <div class="servizi-grid">
-                <div class="servizio">
-                    <div class="servizio-icon">📍</div>
+            <div class="section-header">
+                <h2>I Nostri Servizi</h2>
+                <p>Soluzioni complete per ogni esigenza geometrica</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
                     <h3>Rilievi Topografici</h3>
-                    <p>Rilievi precisi di terreni e fabbricati con GPS e laser scanner di ultima generazione.</p>
+                    <p>Rilievi millimetrici con GPS, laser scanner e droni. Precisione garantita per ogni tipo di terreno.</p>
+                    <a href="#contact" class="service-link">Scopri →</a>
                 </div>
 
-                <div class="servizio">
-                    <div class="servizio-icon">🏗️</div>
-                    <h3>Progettazione</h3>
-                    <p>Progetti costruttivi e architettonici conformi alle normative vigenti.</p>
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <h3>Progettazione 3D</h3>
+                    <p>Modellazione BIM avanzata, visualizzazioni 3D e rendering fotorealistici per i tuoi progetti.</p>
+                    <a href="#contact" class="service-link">Scopri →</a>
                 </div>
 
-                <div class="servizio">
-                    <div class="servizio-icon">📋</div>
+                <div class="service-card">
+                    <div class="service-number">03</div>
                     <h3>Pratiche Catastali</h3>
-                    <p>Gestione complete di pratiche catastali e questioni di confini.</p>
+                    <p>Gestione completa di frazionamenti, accorpamenti e adempimenti catastali con massima competenza.</p>
+                    <a href="#contact" class="service-link">Scopri →</a>
                 </div>
 
-                <div class="servizio">
-                    <div class="servizio-icon">📐</div>
+                <div class="service-card">
+                    <div class="service-number">04</div>
                     <h3>Perizie Tecniche</h3>
-                    <p>Valutazioni immobiliari e perizie eseguite con metodologie internazionali.</p>
+                    <p>Valutazioni immobiliari, perizie strutturali e certificazioni energetiche eseguite professionalmente.</p>
+                    <a href="#contact" class="service-link">Scopri →</a>
                 </div>
 
-                <div class="servizio">
-                    <div class="servizio-icon">🔍</div>
+                <div class="service-card">
+                    <div class="service-number">05</div>
                     <h3>Consulenza Specializzata</h3>
-                    <p>Supporto tecnico su questioni complesse di diritti edificatori.</p>
+                    <p>Supporto tecnico su questioni di confini, diritti edificatori e pianificazione urbana.</p>
+                    <a href="#contact" class="service-link">Scopri →</a>
                 </div>
 
-                <div class="servizio">
-                    <div class="servizio-icon">⚙️</div>
+                <div class="service-card">
+                    <div class="service-number">06</div>
                     <h3>Supervisione Cantieri</h3>
-                    <p>Controllo e direzione lavori con monitoraggio in tempo reale.</p>
+                    <p>Direzione lavori, controllo esecutivo e monitoraggio in tempo reale con reportistica digitale.</p>
+                    <a href="#contact" class="service-link">Scopri →</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- PORTFOLIO -->
+    <!-- PORTFOLIO SECTION -->
     <section id="portfolio" class="portfolio">
         <div class="container">
-            <h2>Portfolio Progetti</h2>
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <p>Una selezione dei nostri progetti</p>
+            </div>
+
             <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop" alt="Progetto 1">
-                    <h3>Complesso Residenziale</h3>
-                    <p>Rilievo e progettazione - 2024</p>
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=500&h=400&fit=crop" alt="Progetto 1">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Complesso Residenziale</h3>
+                        <p>Rilievo topografico e progettazione</p>
+                        <span class="year">2024</span>
+                    </div>
                 </div>
 
-                <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop" alt="Progetto 2">
-                    <h3>Centro Commerciale</h3>
-                    <p>Progettazione 3D - 2024</p>
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=400&fit=crop" alt="Progetto 2">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Centro Commerciale</h3>
+                        <p>Modellazione 3D e visualizzazione</p>
+                        <span class="year">2024</span>
+                    </div>
                 </div>
 
-                <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=400&h=300&fit=crop" alt="Progetto 3">
-                    <h3>Edificio Storico</h3>
-                    <p>Restauro conservativo - 2023</p>
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=500&h=400&fit=crop" alt="Progetto 3">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Edificio Storico</h3>
+                        <p>Restauro e rilievo conservativo</p>
+                        <span class="year">2023</span>
+                    </div>
                 </div>
 
-                <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&h=300&fit=crop" alt="Progetto 4">
-                    <h3>Masterplan Urbano</h3>
-                    <p>Pianificazione territoriale - 2023</p>
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=500&h=400&fit=crop" alt="Progetto 4">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Masterplan Urbano</h3>
+                        <p>Pianificazione e consulenza territoriale</p>
+                        <span class="year">2023</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CONTATTI -->
-    <section id="contatti" class="contatti">
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
         <div class="container">
-            <h2>Contattaci</h2>
-            <div class="contatti-wrapper">
-                <div class="contatti-info">
-                    <div class="info-block">
-                        <h3>Telefono</h3>
-                        <p><a href="tel:+39123456789">+39 123 456 789</a></p>
+            <div class="section-header">
+                <h2>Contattaci</h2>
+                <p>Pronto a trasformare il tuo progetto in realtà?</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>Telefono</h4>
+                        <a href="tel:+39123456789">+39 123 456 789</a>
                     </div>
-                    <div class="info-block">
-                        <h3>Email</h3>
-                        <p><a href="mailto:info@studiogeometra.it">info@studiogeometra.it</a></p>
+                    <div class="contact-item">
+                        <h4>Email</h4>
+                        <a href="mailto:info@geometrapro.it">info@geometrapro.it</a>
                     </div>
-                    <div class="info-block">
-                        <h3>Indirizzo</h3>
-                        <p>Via Roma 123<br>00100 Roma</p>
+                    <div class="contact-item">
+                        <h4>Indirizzo</h4>
+                        <p>Via Roma 123, 00100 Roma</p>
                     </div>
-                    <div class="info-block">
-                        <h3>Orari</h3>
+                    <div class="contact-item">
+                        <h4>Orari</h4>
                         <p>Lun-Ven: 9:00 - 18:00<br>Sab: 9:00 - 13:00</p>
                     </div>
                 </div>
 
-                <form class="contatti-form">
-                    <input type="text" placeholder="Nome completo" required>
+                <form class="contact-form">
+                    <input type="text" placeholder="Nome" required>
                     <input type="email" placeholder="Email" required>
                     <input type="tel" placeholder="Telefono">
-                    <textarea placeholder="Il tuo messaggio" rows="6" required></textarea>
-                    <button type="submit" class="btn-primary">Invia</button>
+                    <textarea placeholder="Messaggio" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Invia Messaggio</button>
                 </form>
             </div>
         </div>
@@ -182,7 +230,7 @@
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Studio Geometra. Tutti i diritti riservati.</p>
+            <p>&copy; 2026 GEOMETRA PRO. Design & Development by Studio Geometra Professionista.</p>
         </div>
     </footer>
 
